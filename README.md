@@ -13,6 +13,7 @@ Add an InjectRequiredAttributeAttribute like this:
     }
 
 Then reference and configure it like this:
+
 	[assembly: InjectRequiredAttribute(TypeMatchPattern = "^InjectRequiredAttribute.ExampleTarget.*$", ResourceType = typeof(Resources), ResourceSuffix = "_Required")]
 
 TypeMatchPattern is a regex pattern, all classes with FullName matching the regex will be processed.

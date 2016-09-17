@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="2.8">
+    <id>InjectRequiredAttribute.Fody</id>
+    <version>$version$</version>
+    <title>InjectRequiredAttribute.Fody</title>
+    <authors>Niels Festjens</authors>
+    <owners>Niels Festjens</owners>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://github.com/Fody/BasicFodyAddin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/Fody/BasicFodyAddin/master/Icons/package_icon.png</iconUrl>
+    <description>A Fody add-in to inject the MVC Required Attribute.</description>
+    <summary />
+    <language>en-AU</language>
+    <tags>ILWeaving, Fody, Cecil, MVC, Required</tags>
+    <dependencies>
+      <dependency id="Fody"/>
+    </dependencies>
+  </metadata>
+</package>
